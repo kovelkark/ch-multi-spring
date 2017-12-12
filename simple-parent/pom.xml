@@ -19,22 +19,7 @@
     <module>simple-weather</module>
     <module>simple-persist</module>
     <module>simple-webapp</module>
-  </modules>
-         
-         <distributionManagement>
-		<snapshotRepository>
-			<id>devopsSnapshots</id>
-			<name>devopsSnapshots</name>
-			<url>http://node02.example.com:8081/nexus/content/repositories/devopsSnapshots</url>
-		</snapshotRepository>
-		<repository>
-		<id>devopsReleases</id>
-			<name>devopsReleases</name>
-			<url>http://node02.example.com:8081/nexus/content/repositories/devopsReleases</url>
-		</repository>
-
-	</distributionManagement>
-
+  </modules> bvc
   <build>
     <pluginManagement>
     <plugins>
